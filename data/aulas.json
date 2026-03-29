@@ -1,0 +1,16 @@
+[
+    {
+        "turma": "3EC",
+        "disciplina": "Engenharia de Software",
+        "data": "28/03/2026",
+        "horario": "19:00",
+        "sala": "LAB 201"
+    },
+    {
+        "turma": "3EC",
+        "disciplina": "Banco de Dados",
+        "data": "28/03/2026",
+        "horario": "21:00",
+        "sala": "SALA 105"
+    }
+]

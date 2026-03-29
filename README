@@ -1,0 +1,72 @@
+# Room Alert - Sistema de Notificação de Sala de Aula
+
+## 1. Descrição do Problema
+Em ambientes universitários dinâmicos, os alunos frequentemente enfrentam desorientação e perdem tempo à procura da sala correta devido a mudanças de última hora na alocação de salas e laboratórios. Isto gera atrasos operacionais no início das aulas e desperdício de tempo de deslocação.
+
+## 2. Solução Proposta
+Este sistema consulta os dados das aulas cadastradas no sistema e envia notificações automatizadas aos alunos com as informações atualizadas de disciplina, horário e sala. A solução atual opera via terminal, simulando o núcleo lógico de uma futura aplicação móvel ou web.
+
+## 3. Tecnologias Utilizadas
+- Python 3
+- Armazenamento persistente em JSON
+- Programação Orientada a Objetos (POO)
+
+## 4. Estrutura do Projeto
+```bash
+localiza-sala-notificador/
+├── README.md
+├── main.py
+├── requirements.txt
+├── data/
+│   ├── alunos.json
+│   ├── aulas.json
+│   └── historico_notificacoes.json
+├── src/
+│   ├── menu.py
+│   ├── models.py
+│   ├── repository.py
+│   ├── services.py
+│   └── utils.py
+└── docs/
+```
+
+## 5. Como Executar
+### Clone o repositório:
+
+``` Bash
+git clone <URL_DO_REPOSITORIO>
+```
+
+### Aceda à diretoria do projeto:
+
+```Bash
+cd localiza-sala-notificador
+```
+
+### Execute o sistema de forma local:
+
+``` Bash
+python main.py
+```
+
+## 6. Funcionalidades Implementadas
+As funcionalidades do sistema garantem o fluxo mapeado no nosso Diagrama UML:
+
+- UC01 - Consultar Sala do Dia: Lista todas as aulas e respetivas salas filtradas por data.
+- UC02 - Receber Notificação: Simulação do alerta formatado para o aluno.
+- UC03 - Manter Dados de Aulas: Permite a atualização da sala de uma disciplina (simulando acesso de administrador).
+- UC04 - Disparar Notificações: Processa as aulas do dia e envia os avisos aos alunos das turmas correspondentes.
+- UC05 - Consultar Histórico: Consulta os registos de notificações enviadas gravados de forma persistente.
+
+## 7. Demonstração Visual
+⚠️ NOTA DE AVALIAÇÃO: Demonstração do núcleo do sistema proposto em funcionamento.
+
+![imagem](check1Software.gif)
+
+## 8. Integrantes do Grupo
+- Geovana Carvalho Pederneschi - RM: 559092
+- Thais Helena Ferreira Vieira - RM: 552387
+
+
+## 9. Links de Documentação
+Board do Miro (SRS e UML): (https://miro.com/app/board/uXjVGq9ZGAA=/?share_link_id=963492113468)]
